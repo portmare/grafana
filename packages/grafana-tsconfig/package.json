@@ -1,0 +1,24 @@
+{
+  "author": "Grafana Labs",
+  "license": "Apache-2.0",
+  "name": "@grafana/tsconfig",
+  "version": "1.0.0-pre",
+  "description": "Grafana's TypeScript config",
+  "keywords": [
+    "grafana",
+    "typescript"
+  ],
+  "repository": "github:grafana/grafana",
+  "main": "tsconfig.json",
+  "files": [
+    "base.json",
+    "tsconfig.json"
+  ],
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2"
+  }
+}

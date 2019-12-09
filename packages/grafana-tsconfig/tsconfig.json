@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "alwaysStrict": true,
+    "declaration": true,
+    "module": "esnext",
+    "noImplicitAny": true,
+    "removeComments": false
+  },
+  "extends": "./base.json"
+}
