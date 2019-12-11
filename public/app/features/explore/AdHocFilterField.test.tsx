@@ -174,11 +174,11 @@ describe('AdHocFilterField', () => {
           const { instance } = setup();
           const pairs: KeyValuePair[] = [];
           const index = 0;
-          const key: undefined = undefined;
+          const key = undefined;
           const keys: string[] = ['key 1', 'key 2'];
-          const value: undefined = undefined;
-          const values: undefined = undefined;
-          const operator: undefined = undefined;
+          const value = undefined;
+          const values = undefined;
+          const operator = undefined;
 
           const result = instance.updatePairs(pairs, index, { key, keys, value, values, operator });
 

@@ -1,11 +1,11 @@
 import { TimeZone } from '../types/time';
-/* tslint:disable:import-blacklist ban ban-types */
+/* eslint-disable id-blacklist no-restricted-imports */
 import moment, { Moment, MomentInput, DurationInputArg1 } from 'moment';
 export interface DateTimeBuiltinFormat {
   __momentBuiltinFormatBrand: any;
 }
 export const ISO_8601: DateTimeBuiltinFormat = moment.ISO_8601;
-export type DateTimeInput = Date | string | number | Array<string | number> | DateTime; // null | undefined
+export type DateTimeInput = Date | string | number | (string | number)[] | DateTime; // null | undefined
 export type FormatInput = string | DateTimeBuiltinFormat | undefined;
 export type DurationInput = string | number | DateTimeDuration;
 export type DurationUnit =

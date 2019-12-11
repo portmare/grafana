@@ -149,7 +149,7 @@ export const lintPlugin = useSpinner<Fixable>('Linting', async ({ fix }) => {
     console.log('\n');
     const failures = lintResults.flat();
     failures.forEach(f => {
-      // tslint:disable-next-line
+      // eslint-disable-next-line
       console.log(
         `${f.getRuleSeverity() === 'warning' ? 'WARNING' : 'ERROR'}: ${
           f.getFileName().split('src')[1]

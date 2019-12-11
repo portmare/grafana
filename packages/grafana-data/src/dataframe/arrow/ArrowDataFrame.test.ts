@@ -1,7 +1,7 @@
 import { resultsToDataFrames } from './ArrowDataFrame';
 import { toDataFrameDTO } from '../processDataFrame';
 
-/* tslint:disable */
+/* eslint-disable */
 const resp = {
   results: {
     '': {
@@ -16,7 +16,7 @@ const resp = {
     },
   },
 };
-/* tslint:enable */
+/* eslint-enable */
 
 describe('GEL Utils', () => {
   test('should parse output with dataframe', () => {
