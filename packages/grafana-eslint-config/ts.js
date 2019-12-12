@@ -31,7 +31,6 @@ module.exports = {
     '@typescript-eslint/class-name-casing': 2,
     '@typescript-eslint/consistent-type-assertions': 2,
     '@typescript-eslint/explicit-member-accessibility': [2, { 'accessibility': 'no-public' }],
-    '@typescript-eslint/indent': [2, 2],
     '@typescript-eslint/interface-name-prefix': [2, { 'prefixWithI': 'never' }],
     '@typescript-eslint/no-inferrable-types': 2,
     '@typescript-eslint/no-namespace': [2, { 'allowDeclarations': false }],

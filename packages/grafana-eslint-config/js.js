@@ -2,17 +2,20 @@
 
 module.exports = {
   'env': {
-    'es6': true
+    'es6': true,
   },
-  /*'extends': [
-    'eslint:recommended'
-  ],*/
+  'extends': [
+    // 'eslint:recommended',
+    'plugin:prettier/recommended',
+    'prettier',
+  ],
   'parserOptions': {
-    'ecmaVersion': 2019
+    'ecmaVersion': 2019,
   },
   'plugins': [
     'jsdoc',
-    // 'prefer-arrow'
+    // 'prefer-arrow',
+    'prettier',
   ],
   'rules': {
     // 'arrow-body-style': 2,
@@ -33,10 +36,9 @@ module.exports = {
       'String',
       'string',
       'Undefined',
-      'undefined'
+      'undefined',
     ],*/
     'jsdoc/check-alignment': 2,
-    'max-len': [2, { 'code': 150 }],
     'new-parens': 2,
     'no-array-constructor': 2,
     'no-bitwise': 0,
@@ -52,16 +54,16 @@ module.exports = {
     'no-restricted-imports': [2, 'moment'],
     'no-shadow': 0,
     // 'no-throw-literal': 2,
-    'no-trailing-spaces': 2,
     // 'no-unused-expressions': 2, // https://github.com/typescript-eslint/typescript-eslint/pull/1175
     'no-unused-labels': 2,
     // 'no-var': 2,
     // 'prefer-arrow-callback': 2, // not needed if 'prefer-arrow' is used
     // 'prefer-arrow/prefer-arrow-functions': 2,
     // 'prefer-const': 2,
+    'prettier/prettier': 2,
     'radix': 2,
     'sort-keys': 0,
     'spaced-comment': [0, 'always'],
     'use-isnan': 2
-  }
+  },
 };
